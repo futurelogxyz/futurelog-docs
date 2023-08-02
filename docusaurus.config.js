@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Futurelog Docs',
+  title: 'Futurelog',
   tagline: 'leave things better than you found them',
   favicon: 'img/favicon.ico',
 
@@ -81,7 +81,7 @@ const config = {
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/blog/tags', label: 'Tag', position: 'right' },
+          { to: '/blog/tags', label: 'Tags', position: 'right' },
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
@@ -113,8 +113,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Futurelog',
-                to: 'https://futurelog.xyz',
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -129,6 +129,10 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/wallezen007',
               },
+              {
+                label: 'Futurelog',
+                href: 'https://futurelog.xyz',
+              }
             ],
           },
         ],
