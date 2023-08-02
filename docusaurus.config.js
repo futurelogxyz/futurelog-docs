@@ -63,7 +63,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{ name: 'keywords', content: 'AI, AIGC, AIOps, future, log, prompt, engineering, tutorial, docs,' }],
+      metadata: [
+        { name: 'keywords', content: 'AI, AIGC, AIOps, engineering, prompt, tutorial, docs, futurelog, future, log,'},
+        { name: 'description', content: 'leave things better than you found them'}
+      ],
       // Replace with your project's social card
       image: 'img/futurelog.svg',
       navbar: {
