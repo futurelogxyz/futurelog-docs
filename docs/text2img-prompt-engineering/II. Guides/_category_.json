@@ -1,0 +1,8 @@
+{
+  "label": "II. Guides",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "guide of stable diffusion prompt engineering"
+  }
+}
