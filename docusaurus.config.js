@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Futurelog. Powered by [Vercel](https://vercel.com/) and [Docusaurus.](https://docusaurus.io/)`,
+        copyright: `Copyright © ${new Date().getFullYear()} Futurelog. Powered by Vercel and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
