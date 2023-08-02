@@ -68,7 +68,7 @@ const config = {
         { name: 'description', content: 'leave things better than you found them'}
       ],
       // Replace with your project's social card
-      image: 'img/futurelog.svg',
+      image: 'img/futurelog-logo.png',
       navbar: {
         // style: 'dark',
         title: 'Futurelog Docs',
