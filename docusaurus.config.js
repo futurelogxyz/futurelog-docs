@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CrowAI',
+  title: 'Futurelog Docs',
   tagline: 'leave things better than you found them',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://crowai.xyz',
+  url: 'https:/docs.futurelog.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CrowAIXYZ', // Usually your GitHub org/user name.
-  projectName: 'crowai-website', // Usually your repo name.
+  organizationName: 'Futurelog', // Usually your GitHub org/user name.
+  projectName: 'futurelog-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/CrowAIXYZ/crowai-website/tree/main',
+            'https://github.com/futurelogxyz/futurelog-docs/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/CrowAIXYZ/crowai-website/tree/main',
+            'https://github.com/futurelogxyz/futurelog-docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,15 +63,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{ name: 'keywords', content: 'AI, AIGC, AIOps, crowai, prompt, engineering, tutorial, blog,' }],
+      metadata: [{ name: 'keywords', content: 'AI, AIGC, AIOps, future, log, prompt, engineering, tutorial, docs,' }],
       // Replace with your project's social card
-      image: 'img/crowai-social-card.png',
+      image: 'img/futurelog.svg',
       navbar: {
         // style: 'dark',
-        title: 'CrowAI',
+        title: 'Futurelog Docs',
         logo: {
-          alt: 'CrowAI Logo',
-          src: 'img/crowai.png',
+          alt: 'Futurelog Logo',
+          src: 'img/futurelog-logo.png',
         },
         items: [
           {
@@ -87,7 +87,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://github.com/crowaixyz',
+            href: 'https://github.com/futurelogxyz/futurelog-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -113,8 +113,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Futurelog',
+                to: 'https://futurelog.xyz',
               },
             ],
           },
@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CrowAI Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Futurelog. Powered by [Vercel](https://vercel.com/) and [Docusaurus.](https://docusaurus.io/)`,
       },
       prism: {
         theme: lightCodeTheme,

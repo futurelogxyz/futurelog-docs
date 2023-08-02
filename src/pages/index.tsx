@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`CrowAI`}
+      title={`Futurelog Docs`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
