@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,18 +46,38 @@ const config = {
           editUrl:
             'https://github.com/futurelogxyz/futurelog-docs/tree/main',
         },
-        blog: {
-          showReadingTime: true,
-          postsPerPage: 5,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/futurelogxyz/futurelog-docs/tree/main',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   postsPerPage: 5,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/futurelogxyz/futurelog-docs/tree/main',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+    // Add the redocusaurus plugin
+    [
+      'redocusaurus',
+      {
+        config: path.join(__dirname, 'redocly.yaml'),
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            id: 'petstore',
+            spec: 'openapi/petstore/petstore.yaml',
+            route: '/api/petstore/',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#1890ff',
+        },
+      },
     ],
   ],
 
@@ -83,8 +104,18 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/blog/tags', label: 'Tags', position: 'right' },
+          {
+            label: 'API',
+            position: 'left',
+            items: [
+              {
+                label: 'Example',
+                to: '/api/petstore/',
+              },
+            ],
+          },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog/tags', label: 'Tags', position: 'right' },
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
@@ -116,8 +147,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'API',
+                to: '/api',
               },
             ],
           },
