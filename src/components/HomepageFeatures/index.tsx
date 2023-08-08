@@ -10,30 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Think',
-    Svg: require('@site/static/img/think.svg').default,
+    title: 'Thinking',
+    Svg: require('@site/static/img/thinking.svg').default,
     description: (
       <>
-        focus, don’t fear of missing out.
+        Think Big.
+        Think Different.
+        Think Smart.
       </>
     ),
   },
   {
-    title: 'Act',
-    Svg: require('@site/static/img/act.svg').default,
+    title: 'Action',
+    Svg: require('@site/static/img/action.svg').default,
     description: (
       <>
-        I hear and I forget. I see and I remember. <br />
+        I hear and I forget.
+        I see and I remember. <br />
         I do and I understand.
       </>
     ),
   },
   {
-    title: 'Iterate',
-    Svg: require('@site/static/img/iterate.svg').default,
+    title: 'Iteration',
+    Svg: require('@site/static/img/iteration.svg').default,
     description: (
       <>
-        leave things better than you found them.
+        Focus. <br />
+        Leave things better than you found them.
       </>
     ),
   },

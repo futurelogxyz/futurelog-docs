@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Futurelog Docs`}
       description="futurelog documents">
-      <HomepageHeader />
+      {/* <HomepageHeader /> */}
       <main>
         <HomepageFeatures />
       </main>
