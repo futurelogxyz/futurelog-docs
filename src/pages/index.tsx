@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Futurelog Docs`}
-      description="Description will go into a meta tag in <head />">
+      description="futurelog documents">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

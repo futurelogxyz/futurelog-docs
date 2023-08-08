@@ -8,7 +8,7 @@ const path = require('path');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Futurelog',
-  tagline: 'leave things better than you found them',
+  tagline: 'log for the future',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -85,8 +85,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { name: 'keywords', content: 'AI, AIGC, AIOps, engineering, prompt, tutorial, docs, futurelog, future, log,'},
-        { name: 'description', content: 'leave things better than you found them'}
+        { name: 'keywords', content: 'futurelog, docs, tutorial, engineering, prompt, ai'},
+        { name: 'description', content: 'Futurelog - log for the future'}
       ],
       // Replace with your project's social card
       image: 'img/futurelog-logo.png',
