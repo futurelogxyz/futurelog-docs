@@ -105,6 +105,7 @@ const config = {
             label: 'Docs',
           },
           {
+            type: 'dropdown',
             label: 'API',
             position: 'left',
             items: [
@@ -147,8 +148,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'API',
-                to: '/api',
+                label: 'Example API',
+                to: '/api/petstore/',
               },
             ],
           },
