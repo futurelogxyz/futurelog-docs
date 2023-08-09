@@ -145,16 +145,28 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
                 label: 'Example API',
                 to: '/api/petstore/',
               },
+              {
+                label: 'Futurelog',
+                href: 'https://futurelog.xyz',
+              },
+              {
+                label: 'Slides',
+                href: 'https://futurelog.xyz/webslides',
+              },
+              {
+                label: 'Galleries',
+                href: 'https://futurelog.xyz/galleries',
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'Community',
             items: [
               {
                 label: 'GitHub',
@@ -164,10 +176,6 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/wallezen007',
               },
-              {
-                label: 'Futurelog',
-                href: 'https://futurelog.xyz',
-              }
             ],
           },
         ],
