@@ -157,7 +157,7 @@ const config = {
               },
               {
                 label: 'Slides',
-                href: 'https://futurelog.xyz/webslides',
+                href: 'https://futurelog.xyz/slides',
               },
               {
                 label: 'Galleries',
