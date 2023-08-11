@@ -179,7 +179,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Futurelog. Powered by Vercel and Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Futurelog. Powered by Vercel and Docusaurus. Licensed under Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY-NC-SA 4.0</a>).`,
       },
       prism: {
         theme: lightCodeTheme,
