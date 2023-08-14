@@ -110,7 +110,7 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Example',
+                label: 'Example API',
                 to: '/api/petstore/',
               },
             ],
@@ -145,12 +145,17 @@ const config = {
             ],
           },
           {
-            title: 'Links',
+            title: 'API',
             items: [
               {
                 label: 'Example API',
                 to: '/api/petstore/',
               },
+            ],
+          },
+          {
+            title: 'Links',
+            items: [
               {
                 label: 'Futurelog',
                 href: 'https://futurelog.xyz',
